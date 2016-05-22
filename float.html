@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<title>Float and Page</title>
+  	<style type="text/css">
+  		body {
+  			background: #e0e0e0;
+  			font-family: sans-serif;
+  			color: #666666;
+  		}
+  		#primary, #secondary {
+  			padding: 25px;
+  			box-sizing: border-box;
+  			background: yellow;
+  		}
+  		#primary {
+  			float: left;
+  			width: 600px;
+  		}
+  		#secondary {
+  			float: right;
+  			width: 280px;
+  		}
+  		#columns {
+  			background: red;
+  			width: 900px;
+  			padding: 30px;
+  			margin: 0 auto;
+  			overflow: hidden;
+  		}
+  		/*#columns:after {
+  			display: block;
+  			clear: both;
+  			content: "";
+  		}*/
+  	</style>
+</head>
+<body>
+	<div id="columns">
+		<div id="primary">
+			<h1>Main Content</h1>
+	  	</div>
+	  	<div id="secondary">
+	  		<h3>Sidebar Content</h3>
+	  	</div>
+	</div>
+</body>
+</html>
